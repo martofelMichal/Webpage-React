@@ -1,0 +1,25 @@
+.MainFont{
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding: 50px;
+    
+}
+
+.Font{
+    @extend .MainFont
+}
+
+.Cytat{
+    @extend .MainFont;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+

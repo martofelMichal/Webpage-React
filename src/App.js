@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
+import MainView from './Components/MainView/MainView';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <MainView
+    content="Dupa biskupa">
+      <header>
       </header>
-    </div>
+    </MainView>
   );
 }
 
